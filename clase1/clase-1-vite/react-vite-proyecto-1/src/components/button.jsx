@@ -1,9 +1,9 @@
 import React from "react";
 
-function button ({text}) {
+function Button ({text}) {
     return (
         <button type="">{text}</button>
     );
 }
 
-export default button;
+export default Button;

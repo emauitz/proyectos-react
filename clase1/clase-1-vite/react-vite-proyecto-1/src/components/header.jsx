@@ -6,8 +6,8 @@ function Header() {
         <header className="header">
             <div className="app-name">TODO-app</div>
         <nav className="nav-bar">
-            <button className="nav-bar_button" text="Settings" />
-            <button className="nav-bar_button" text="Log-Out" />
+            <button type="">{Settings}</button>
+            <button type="">{Log-Out}</button>
         </nav>
         </header>
     );

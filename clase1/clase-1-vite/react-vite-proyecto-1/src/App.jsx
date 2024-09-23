@@ -6,7 +6,8 @@ import "./components/login"
 
 function App() {
   return <div>
-    <span>Hola mi primer app con vite</span>
+    <header />
+    <section />
   </div>
 }
 
