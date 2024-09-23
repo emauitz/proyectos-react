@@ -1,8 +1,8 @@
 import React from 'react';
 
-function FormInput ({placeholder, name, value}) {
+function FormInput ({placeholder, type}) {
     return (
-        <input placeholder={placeholder} name={name} value={value} />
+        <input placeholder={placeholder} type={type} />
     );
 }
 

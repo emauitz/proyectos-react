@@ -5,26 +5,26 @@ import FormInput from './input.jsx';
 
 function LoginForm () {
     return (
-        <container-form>
+        <section>
             <form className='Log-In'>
                 <h2>Login</h2>
                 <span>Carga tus datos para comenzar</span>
-                <FormInput type="text" placeholder="Email" />
-                <FormInput type="password" placeholder="Password" />
-                <button type="text" text="Iniciar Sesion" />
+                <input placeholder="Email" type="text" />
+                <input placeholder="Password" type="password" />
+                <button type="submit">{Iniciar Sesion}</button>
             </form>
 
             <form className="Sign-Up"> 
                 <h2>Sign-Up</h2>
                 <span>Crea un nuevo usuario</span>
-                <FormInput type="text" placeholder="Nombre" />
-                <FormInput type="text" placeholder="Email" />
-                <FormInput type="password" placeholder="Password" />
-                <FormInput type="password" placeholder="Confirma Password" />
-                <button type="submit" text="Registrarse" />
+                <input placeholder="Nombre" type="text" />
+                <input placeholder="Email" type="text" />
+                <input placeholder="Password" type="password" />
+                <input placeholder="Confirma Password" type="password" />
+                <button type="submit">{Registrarse}</button>
             </form>
-    
-        </container-form>)
-}
+        </section>
+        )
+};
 
 export default LoginForm;
