@@ -1,9 +1,9 @@
 import React from 'react';
 
-import button from './button.jsx';
-import FormInput from './input.jsx';
+import button from '../components/button.jsx';
+import FormInput from '../components/input.jsx';
 
-function LoginForm () {
+function LoginForm (props) {
     return (
         <section>
             <form className='Log-In'>

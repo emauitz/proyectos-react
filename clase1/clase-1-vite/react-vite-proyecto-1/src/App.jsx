@@ -1,13 +1,16 @@
 import { useState } from 'react'
-import "./components/header"
-import "./components/input"
-import "./components/button"
-import "./components/login"
+import "./sections/Header"
+import "./sections/Footer"
+import Section from './sections/Section'
+import { ApiDolar, ApiFeriados } from './sections/Apis'
 
 function App() {
   return <div>
     <header />
-    <section />
+    <Section />
+    <ApiDolar />
+    <ApiFeriados />
+    <footer />
   </div>
 }
 
